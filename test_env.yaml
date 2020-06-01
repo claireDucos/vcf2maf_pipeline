@@ -1,0 +1,18 @@
+---
+#usage :  conda env create -f test_env.yaml
+name: vcf2maf
+channels:
+  - bioconda
+  - conda-forge
+  - defaults
+dependencies:
+  - conda-forge::python=3.7.6
+  - conda-forge::git=2.26.0
+  - conda-forge::pandas=1.0.3
+  - conda-forge::zlib=1.2.11
+  - bioconda::snakemake=5.14.0
+  - bioconda:pbgzip=2016.08.04
+  - bioconda:snpeff=4.3.1t
+  - bioconda:snpsift=4.3.1t
+  - bioconda:bioconductor-org.hs.eg.db=3.6.0
+
